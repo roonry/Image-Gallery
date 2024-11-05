@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+}
+
+.img-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container__image img{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.container__image{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+.container h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.container hr {
+    width: 200px;
+    height: 3px;
+    text-align: center;
+    margin-left: 42%;
+    background-color: aqua;
+    border: none;
+}
